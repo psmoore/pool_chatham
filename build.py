@@ -13,7 +13,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 # Published Pool Relay views. Each is scoped to exactly what its page is about.
 EMBED = {
-    "finder":  "8WBzX5PfGeJJPSB2chuumL",   # both pools, one day, a row per part of each pool; Teams menu
+    "finder":  "8WBzX5PfGeJJPSB2chuumL",   # both pools, one day, a row per program; Teams menu
     "week":    "AAsteRpnoYZ3rQmcNYADY3",   # one pool, the whole week; Pools menu (opens on the Lap Pool)
     "lap":     "6zQTQzGiPiJDozzD145fnY",   # lap swim in both pools, plus meet closures
     "lessons": "mnHnXReBBoGwMDzFfExuxx",   # group lessons; Practice Groups menu picks a level
@@ -169,10 +169,9 @@ QUESTIONS = """<section class="wrap">
       25-yard recreational pool, and pool directories list 20 short-course lanes.</div>
     </li>
     <li>
-      <div class="q"><span class="tag ours">Ours</span>Lap lanes, team lanes and program areas</div>
+      <div class="q"><span class="tag ours">Ours</span>Which lanes each program uses</div>
       <div class="a">No page says which lanes lap swim keeps while clubs, lessons and classes are in the
-      water. We split the Lap Pool into lap lanes, team lanes and a program area, and the Recreation Pool
-      into lap lanes, open swim, a lesson area and a class area, so they can sit side by side. Lessons are
+      water, so everything is booked on its pool and the calendar shows one row per program. Lessons are
       placed in the Recreation Pool, which the center calls ideal for them; registration doesn't say. In
       October, Monday and Wednesday Jr. Stroke Stars (6:45&ndash;7:15pm) overlaps Adult Stroke Stars
       (7&ndash;7:30pm) and is left flagged.</div>
@@ -187,8 +186,8 @@ HUB = f"""<section class="wrap hero">
   <div class="crumb">Aquatic Center &raquo; Hours</div>
   <h1>Find a swim time</h1>
   <p class="kicker">Lap Pool &middot; Recreation Pool &middot; one calendar</p>
-  <p class="lead">Both pools on one calendar, a row for each part of each pool: lap lanes, the team lanes
-  the swim clubs use, and the areas where lessons, classes and family swim happen. Pick a
+  <p class="lead">Both pools on one calendar, one row per program: lap swim, open swim, lessons, water
+  aerobics and the swim clubs. Pick a
   <strong>day</strong>, and use the <strong>Teams</strong> menu to show one program.</p>
 
 {cal("finder", "Chatham County Aquatic Center — both pools, one day", "short")}

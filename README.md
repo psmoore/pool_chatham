@@ -12,7 +12,7 @@ Built with `python3 build.py` (the chrome lives there; edit it, not the HTML) an
 
 | Page | Calendar | Scoped to |
 |---|---|---|
-| `index.html` — Find a swim time | [`8WBzX5Pf…`](https://www.poolrelay.com/v/8WBzX5PfGeJJPSB2chuumL) | both pools, one day, a row per part of each pool; **Teams** menu |
+| `index.html` — Find a swim time | [`8WBzX5Pf…`](https://www.poolrelay.com/v/8WBzX5PfGeJJPSB2chuumL) | both pools, one day, a row per program; **Teams** menu |
 | `week.html` | [`AAsteRpn…`](https://www.poolrelay.com/v/AAsteRpnoYZ3rQmcNYADY3) | one pool, the whole week; **Pools** menu, opens on the Lap Pool |
 | `lap-swim.html` | [`6zQTQzGi…`](https://www.poolrelay.com/v/6zQTQzGiPiJDozzD145fnY) | lap swim in both pools, plus GCAT meets |
 | `open-swim.html` | [`iZNfkEId…`](https://www.poolrelay.com/v/iZNfkEIdBqtovLPzM2QenD) | family open swim and Saturday water polo |
@@ -34,9 +34,8 @@ Built with `python3 build.py` (the chrome lives there; edit it, not the HTML) an
 
 ## What is ours
 
-- **Areas.** Lap Pool: *Lap Lanes*, *Team Lanes*, *Program Area* (deep water aerobics, water polo).
-  Recreation Pool: *Lap Lanes*, *Open Swim Area*, *Lesson Area*, *Class Area*. Nothing says which lanes
-  anyone uses.
+- **Everything is booked on its pool.** Nothing says which lanes anyone uses, so programs that share the water
+  overlap on the pool; the finder shows one row per program.
 - **Lessons grouped by time slot** and placed in the Recreation Pool; registration names no pool.
 - **Club groups at the same time are one block** (e.g. Gold, Gold Lite and Navy Mon/Wed 4–5:30pm).
 - **Sept 26**: Saturday lap swim, LCAC practice and water polo are skipped for the Pentathlon; lap swim
