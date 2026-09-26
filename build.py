@@ -13,7 +13,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 # Published Pool Relay views. Each is scoped to exactly what its page is about.
 EMBED = {
-    "finder":  "8WBzX5PfGeJJPSB2chuumL",   # both pools, one day, a row per program; Teams menu
+    "finder":  "8WBzX5PfGeJJPSB2chuumL",   # one pool at a time, lane by lane; Pools and Teams menus
     "week":    "AAsteRpnoYZ3rQmcNYADY3",   # one pool, the whole week; Pools menu (opens on the Lap Pool)
     "lap":     "6zQTQzGiPiJDozzD145fnY",   # lap swim in both pools, plus meet closures
     "lessons": "mnHnXReBBoGwMDzFfExuxx",   # group lessons; Practice Groups menu picks a level
@@ -171,7 +171,8 @@ QUESTIONS = """<section class="wrap">
     <li>
       <div class="q"><span class="tag ours">Ours</span>Which lanes each program uses</div>
       <div class="a">No page says which lanes lap swim keeps while clubs, lessons and classes are in the
-      water, so everything is booked on its pool and the calendar shows one row per program. Lessons are
+      water, so the lane numbers on the calendar are our estimate: lap swim on the lanes left after the clubs,
+      lessons and classes. Lessons are
       placed in the Recreation Pool, which the center calls ideal for them; registration doesn't say. In
       October, Monday and Wednesday Jr. Stroke Stars (6:45&ndash;7:15pm) overlaps Adult Stroke Stars
       (7&ndash;7:30pm) and is left flagged.</div>
@@ -186,8 +187,8 @@ HUB = f"""<section class="wrap hero">
   <div class="crumb">Aquatic Center &raquo; Hours</div>
   <h1>Find a swim time</h1>
   <p class="kicker">Lap Pool &middot; Recreation Pool &middot; one calendar</p>
-  <p class="lead">Both pools on one calendar, one row per program: lap swim, open swim, lessons, water
-  aerobics and the swim clubs. Pick a
+  <p class="lead">Each pool lane by lane: the 50-meter Lap Pool (set up as 20 short-course lanes this fall)
+  and the 6-lane Recreation Pool. Pick a pool and a
   <strong>day</strong>, and use the <strong>Teams</strong> menu to show one program.</p>
 
 {cal("finder", "Chatham County Aquatic Center — both pools, one day", "short")}
